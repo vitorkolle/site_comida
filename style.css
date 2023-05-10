@@ -20,7 +20,7 @@ header{
 .logo{
     position: relative;
     margin-left: 6vh;
-    
+
 }
 .inf{
     display: flex;
@@ -100,7 +100,7 @@ margin-top: -2.5vh;
     cursor: pointer;
 }
 footer{
-    background-image: url(img/footer.png);
+    background-image: url(./img/footer.png);
     margin-top: 38px;
     background-color: white;
     height: 10vh;
