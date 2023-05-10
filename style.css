@@ -46,7 +46,7 @@ header{
 
 main{
     display: flex;
-    background-repeat: repeat-x, repeat-y;
+    background-repeat:repeat;
 }
 .img_p{
     margin-left: 6vh;
@@ -100,7 +100,7 @@ margin-top: -2.5vh;
     cursor: pointer;
 }
 footer{
-    background-image: url(img/footer.png);
+    background-image: url(./img/footer.png);
     margin-top: 38px;
     background-color: white;
     height: 10vh;
