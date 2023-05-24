@@ -4,7 +4,7 @@ body{
     box-sizing: border-box;
   background-image: url(/img/japanese-wave-wallpaper-background\ 1.svg);
     background-color: black;
-    background-repeat: repeat-x;
+    background-size: cover;
     
 }
 a{
@@ -104,16 +104,15 @@ footer{
     margin-top: 38px;
     background-color: white;
     height: 10vh;
-    background-repeat: repeat-x;
+    background-size: cover;
+    background-repeat: repeat-y;
 
 }
 @media (max-width: 768px){
     body{
-        overflow-x: hidden;
+       position: fixed;
         background-image: url(./img/japanese-wave-wallpaper-background\ 1.svg);
-        background-repeat: no-repeat;
-        
-    }
+}
 .logo{
     width: 20vh;
     margin-left: 2vh;
@@ -187,13 +186,11 @@ footer{
    width: 100vh;
 }
 footer{
-    background-image: url(./img/footer.png);
-    background-size: 10vh;
     margin-top: 36vh;
     background-color: white;
     height: 12vh;
     width: 100%;
-    overflow-x: hidden;
+    overflow-y: hidden;
 
 }
 }
