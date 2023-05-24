@@ -194,3 +194,28 @@ footer{
 
 }
 }
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+.logo{
+    width: 32vh;
+}
+.inf{
+    font-size: .8rem;
+    margin-top: 6px;
+}
+.img_com{
+    width: 55vh;
+
+}
+.icones{
+    width: 18vh;
+    bottom: 16px;
+}
+
+
+
+
+
+
+}
