@@ -1,12 +1,16 @@
-body{
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-  background-image: url(/img/japanese-wave-wallpaper-background\ 1.svg);
-    background-color: black;
-    background-size: cover;
-    
+   
 }
+body{
+   background-image: url(./img/japanese-wave-wallpaper-background\ 1.svg);
+    background-color: black;
+    
+   
+}
+
 a{
     text-decoration: none;
 }
@@ -25,7 +29,7 @@ header{
 .inf{
     display: flex;
     color: white;
-    column-gap: 50px;
+    column-gap: 60px;
     position: relative;
     left: 82vh;
     font-family: 'Comme', sans-serif;
@@ -54,21 +58,23 @@ main{
     display: grid;
 }
 .img_com{
-    width: 74vh;
+    width: 72vh;
     position: relative;
     z-index: -1;
 }
 .icones{
     margin-top: -2vh;
     margin-left: 7vh;
+    width: 20vh;
     
 }
 .inf_g{
+    display: grid;
     position: relative;
-    margin-top: 18vh;
-    left: 50vh;
-    font-size: 24px;
+    top: 18vh;
+    font-size: 40px;
     font-family: 'Comme', sans-serif;
+    left: 20vh;
     
 }
 
@@ -84,138 +90,227 @@ main{
     display: flex;
     color: white;
     gap: 12px;
-    margin-top:-56px;
+    margin-top:-150px;
+    
 }
 .txt4{
     color: red;
 }
 .txt_p{
 color: white;
-font-size: 22px;
-margin-top: -2.5vh;
+font-size: 32px;
+margin-top: -16vh;
 }
 .botoes{
-    margin-top: 3vh;
-    width: 65vh;
+    position: relative;
+    top: -8vh;
+    width: 50vh;
     cursor: pointer;
+    left: 4vh;
 }
 footer{
     background-image: url(./img/footer.png);
-    margin-top: 38px;
-    background-color: white;
-    height: 10vh;
-    background-size: cover;
-    background-repeat: repeat-y;
+    margin-top: 87px;
+    height: 16vh;
+   
 
 }
 @media (max-width: 768px){
     body{
-       position: fixed;
+        position: fixed;
         background-image: url(./img/japanese-wave-wallpaper-background\ 1.svg);
-}
-.logo{
-    width: 20vh;
-    margin-left: 2vh;
-
-}
-.inf{
-    font-size: 6px;
-    display: flex;
-    color: white;
-    column-gap: 7px;
-    position: relative;
-    left: 2vh;
-    font-family: 'Comme', sans-serif;
-    top: 5px;
-}
-.img_p{
-    margin-left: 2vh;
-    margin-top: 4vh;
-    display: grid;
-    width: 4px;
-
-}
-.icones{
-    margin-top: 3vh;
-    margin-left: -6vh;
-    width: 15vh;
-    z-index: 2;
-}
-.img_p{
-    margin-left: 14vh;
-    margin-top: 10px;
-    position: start;
-}
-.img_com{
-    width: 45vh;
-    bottom: -4vh;
-    left: -8vh;
-    z-index: 2;
-}
-.botoes{
-    width: 287px;
-    position: absolute;
-    margin-left: 10px;
-    margin-top: 1vh;
-    margin-bottom: -18vh;
-    
-}
-.inf_g{
-    display: grid;
-    row-gap: -1px;
-    left: 1.5vh;
-    gap: -8px;
-    position: absolute;
-    top: 58vh;
-
-}
-.inf_r_1{
-    font-size: 16px;
-    margin-top: -18vh;
-
-}
-.inf_r_2{
-    font-size: 16px;
-    margin-top: -13vh;
-    width: 100vh;
-
-}
-.txt_p{
-    font-size: 16px;
-   margin-top: -4vh;
-   width: 100vh;
-}
-footer{
-    margin-top: 36vh;
-    background-color: white;
-    height: 12vh;
-    width: 100%;
-    overflow-y: hidden;
-
+    }
+         .logo{
+             width: 20vh;
+             margin-left: 2vh;
+         }
+         .inf{
+            font-size: .5rem;
+             display: flex;
+             color: white;
+             column-gap: 20px;
+             position: relative;
+             left: 4vh;
+             font-family: 'Comme', sans-serif;
+             top: 10px;
+         }
+         .cardapio{
+             opacity: 0;
+         }
+         .contato{
+             margin-left: -50px;
+         }
+         .img_p{
+            position: relative;
+             left: 29vh;
+             top: 22vh;
+             display: grid;
+             width: 40px;
+         
+         }
+         .icones{
+             margin-top: 3vh;
+             margin-left: -6vh;
+             width: 15vh;
+             z-index: 2;
+         }
+         .img_p{
+             margin-left: -10vh;
+             margin-top: 10px;
+             
+         }
+         .img_com{
+             width: 45vh;
+             bottom: -4vh;
+             left: -8vh;
+             z-index: 2;
+         }
+         .botoes{
+            width: 300px;
+     position: absolute;
+     margin-left: -18px;
+     margin-top: 34vh;
+     margin-bottom: -18vh;
+             
+         }
+         .inf_g{
+            position: relative;
+             display: grid;
+             top: 18vh;
+             left: 8vh;
+            
+             
+             
+            
+         
+         }
+         .inf_r_1{
+            position: relative;
+             font-size: 16px;
+            bottom: 60px;
+           
+         
+         }
+         .inf_r_2{
+            position: relative;
+             font-size: 16px;
+            bottom: 0vh;
+        
+         
+         }
+         .txt4{
+            margin-left: -5px;
+         }
+         .txt_p{
+            position: relative;
+            bottom: 14vh;
+             font-size: 14px;
+            width: 100vh;
+         }
+         footer{
+             margin-top: 36vh;
+             background-color: white;
+             height: 12vh;
+             width: 100%;
+             overflow-y: hidden;  
 }
 }
 @media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) {
-.logo{
-    width: 32vh;
-}
-.inf{
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    body{
+        position: fixed;
+         background-image: url(./img/japanese-wave-wallpaper-background\ 1.svg);
+ }
+ .logo{
+     width: 20vh;
+     margin-left: 2vh;
+ }
+ .inf{
     font-size: .8rem;
-    margin-top: 6px;
-}
-.img_com{
-    width: 55vh;
+     display: flex;
+     color: white;
+     column-gap: 25px;
+     position: relative;
+     left: 7vh;
+     font-family: 'Comme', sans-serif;
+     top: 14px;
+ }
+ .img_p{
+    position: relative;
+     left: 29vh;
+     top: 22vh;
+     display: grid;
+     width: 4px;
+ 
+ }
+ .icones{
+     margin-top: 3vh;
+     margin-left: -6vh;
+     width: 15vh;
+     z-index: 2;
+ }
+ .img_p{
+     margin-left: 14vh;
+     margin-top: 10px;
+     position: start;
+ }
+ .img_com{
+     width: 45vh;
+     bottom: -4vh;
+     left: -8vh;
+     z-index: 2;
+ }
+ .botoes{
+     width: 600px;
+     position: absolute;
+     margin-left: -50px;
+     margin-top: 28vh;
+     margin-bottom: -18vh;
+     
+ }
+ .inf_g{
+    position: relative;
+     display: grid;
+     top: 30vh;
+     left: -10vh;
+    
+     
+     
+    
+ 
+ }
+ .inf_r_1{
+    position: relative;
+     font-size: 28px;
+    bottom: 200px;
+   
+ 
+ }
+ .inf_r_2{
+    position: relative;
+     font-size: 28px;
+    bottom: 18vh;
 
-}
-.icones{
-    width: 18vh;
-    bottom: 16px;
-}
-
-
-
-
-
-
+ 
+ }
+ .txt_p{
+    position: relative;
+    bottom: 23vh;
+     font-size: 22px;
+    width: 100vh;
+ }
+ footer{
+     margin-top: 36vh;
+     background-color: white;
+     height: 12vh;
+     width: 100%;
+     overflow-y: hidden;
+ 
+ }
 }
