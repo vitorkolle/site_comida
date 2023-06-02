@@ -7,6 +7,7 @@
 body{
    background-image: url(./img/japanese-wave-wallpaper-background\ 1.svg);
     background-color: black;
+    overflow: hidden;
     
    
 }
@@ -90,7 +91,7 @@ main{
     display: flex;
     color: white;
     gap: 12px;
-    margin-top:-150px;
+    margin-top:-100px;
     
 }
 .txt4{
@@ -99,7 +100,7 @@ main{
 .txt_p{
 color: white;
 font-size: 32px;
-margin-top: -16vh;
+margin-top: -12vh;
 }
 .botoes{
     position: relative;
@@ -194,7 +195,7 @@ footer{
          .inf_r_2{
             position: relative;
              font-size: 16px;
-            bottom: 0vh;
+            bottom: 8vh;
         
          
          }
@@ -203,7 +204,7 @@ footer{
          }
          .txt_p{
             position: relative;
-            bottom: 14vh;
+            bottom: 19vh;
              font-size: 14px;
             width: 100vh;
          }
@@ -240,6 +241,13 @@ and (max-device-width : 1024px) {
      left: 7vh;
      font-family: 'Comme', sans-serif;
      top: 14px;
+ }
+ .cardapio{
+     opacity: 1;
+ }
+ .contato{
+     position: relative;
+     right: -5vh;
  }
  .img_p{
     position: relative;
@@ -295,13 +303,13 @@ and (max-device-width : 1024px) {
  .inf_r_2{
     position: relative;
      font-size: 28px;
-    bottom: 18vh;
+    bottom: 23vh;
 
  
  }
  .txt_p{
     position: relative;
-    bottom: 23vh;
+    bottom: 27vh;
      font-size: 22px;
     width: 100vh;
  }
